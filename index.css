@@ -1,0 +1,391 @@
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+nav {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.navbar-brand {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+
+.navbar-list {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 60%;
+    height:100%;
+
+}
+
+.nav-item {
+
+    margin:10px;
+    width: 100%;
+    height:100%;
+
+}
+    
+
+
+
+ul {
+
+
+    /* Look up css-tricks.com as a reference website for assistance  */
+   /* This following line gets rid of the bullet points in the unordered list */
+
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+
+    color:rgb(218,64,218);
+}
+
+
+
+
+.background {
+
+    z-index:-1; 
+    width:100%;
+    position:fixed; */
+    margin-top: -100px;
+}
+
+
+.nav-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.events-tile {
+
+    background-color: white;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.main-tile-dimension{
+
+    width:100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: auto;
+    margin:auto;
+
+}
+
+
+.bottom {
+
+    background-color: black;
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    
+    justify-content: space-evenly;
+
+}
+
+.map {
+
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+
+}
+
+.imgmap {
+
+    width: 250px;
+    
+}
+
+.event-info{
+    display: flex;
+
+    justify-content: center;
+}
+
+
+
+.social {
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+
+.footinfo{
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+
+}
+.Locations{
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+
+}
+
+
+.showfeats {
+
+    z-index:1;
+    height:19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px black,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+
+.local-shows {
+    
+
+    background-color: white;
+    margin:auto;
+    justify-content: space-evenly;
+    width:100%;
+    
+}
+
+table {
+
+    border:collapse;
+    background-color: black;
+    width: 100%;
+
+}
+
+td,th {
+    color:white;
+
+    border: 1px solid #ba21c2;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+
+    font-weight: 900;
+    text-align:left;
+    text-decoration: underline;
+
+}
+.wrap-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+
+}
+
+footer{
+    margin-bottom: 0px;
+}
+
+
+.event-header {
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(to top,rgba(255,255,255,0)0%,rgb(0,0,0)40%);
+    align-items: flex-end;
+    }
+
+
+.event {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100;
+    flex-grow:1;
+    background-color: black;
+    margin:auto;
+
+}
+
+.grid-text{
+
+    text-align: center;
+}
+
+
+.grid-image{
+
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.shows-container{
+
+    background-color:rgb(255, 255, 255);
+    padding:5%
+}
+
+
+.image-container-event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-name{
+
+    align-items: center;
+    margin: auto;
+}
+
+.event-click{
+    text-decoration: none;
+    color:black;
+}
+
+.event-click:hover{
+
+    color:rgb(218,64,218);
+    cursor:pointer;
+}
+
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  

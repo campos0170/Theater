@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400
+;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8a982de53b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+        <div class="navbar-brand">
+            
+                <a href="#">Griot Theater</a>
+        </div>
+            
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item"><a href="#home.html">Home</a></li>
+                    <li class="nav-item"><a href="#events.html" id="events">Our Events</a></li>
+                    <li class="nav-item"><a href="#actors.html" id="'actors">Local Showings</a></li>
+                    <li class="nav-item"><a href="#gallery.html" id="gallery">Gallery</a></li>
+                    <li class="nav-item"><a href="#contact.html" id="contacts">Contact</a></li>
+                </ul>
+            
+            </div>
+        </div>
+    
+    </nav>
+
+    <!-- Main Landing Tile -->
+
+    <section class="landing-page-area-one">
+        <div><img src="images/theater-image-background.png" alt="several shadows in the background" class = "background"></div>
+        <h1 class = "showfeats">Where characters become alive</h1>
+    
+    </section>
+    <!-- Events tile -->
+    
+    <section class="events-tile"> 
+        <div class="gradient"></div>
+        <div class="event-header" id ="event">
+            <h2>Our Events</h2>
+            
+
+        </div>
+    <div class="main-tile-dimension">
+        <div class="events" id="events">
+        <div class="image-container-event">
+            <img src="images/a-raisin-in-the-sun-theater-1.png" alt="A man and a child on set of a theater production.">
+            </div>
+        </div>
+        <div class="event-name">
+            <h1><a class="event-click"> Beautiful and The Damned</a></h1>
+        </div>
+        <div class="event-info">
+            <p class = 'info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Molestiae harum quis nesciunt voluptatem doloremque 
+                perspiciatis! Laborum velit sapiente eligendi sequi.</p>
+        </div>
+        <div class="events">
+            <div class="image-container-event">
+                <img src="images/a-raisin-in-the-sun-theater-1.png" alt="A man and a child on set of a theater production.">
+                </div>
+            </div>
+            <div class="event-name">
+                <h1><a class="event-click"> A Raisin In The Sun</a></h1>
+            </div>
+            <div class="event-info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestiae harum quis nesciunt voluptatem doloremque 
+                    perspiciatis! Laborum velit sapiente eligendi sequi.</p>
+            </div>
+            <div class="event">
+                <div class="image-container-event">
+                    <img src="images/a-raisin-in-the-sun-theater-1.png" alt="A man and a child on set of a theater production.">
+                    </div>
+                </div>
+                <div class="event-name">
+                    <h1><a class="event-click">Hamilton</a></h1>
+                </div>
+                <div class="event-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Molestiae harum quis nesciunt voluptatem doloremque 
+                        perspiciatis! Laborum velit sapiente eligendi sequi.
+                    </p>
+                </div>
+    </div>
+    </section>
+
+<!--    
+    General Template for the Grid:
+ -->
+<!-- 
+
+    General outline for the footer:
+<footer>
+    <div bottom> 
+        This large div id what creates the large separation in the footer. everything else will be inside this div.
+        - <div> <img for the image> The img is self-containing.
+          </div> this opens and closes a div for the image.
+
+        - <div> this is the div for Info. Inside we have three divs for the content.
+
+            <div>Foothead</d>
+            <div> This div is for the address.</d>
+            <div> This div is for the email. </d>
+            <div> This div is for the Phone Number. </div>
+
+            </div>
+        -<div> this is the div for The Shows. Inside we have Four divs for the content.
+            
+            <div> Foorhead. </d>
+            <div> The Piano Lesson. </d>
+            <div> The Raisin in The Sun. </d>
+            <div> Fame. </div>
+            <div> The Color Purple. </d>
+
+        </div>
+
+        -<div> this is the div for Social. Inside we have four divs for the content.
+
+            <div> Foorhead.</d>
+            <div> Facebook.</d>
+            <div> Twitter. </d>
+            <div> Youtube. </div>
+            <div> Insta. </div>
+
+        </div>
+    </div> This Final closing bracket is for the bottom.
+
+</footer> This final one closes the entire footer.
+ -->
+<!-- For this section we add a table of the events in the calendar. -->
+
+
+<!-- 
+
+<section class = "local-shows">
+
+    <div class = "shows-container">
+        <h2> Local Shows </h2>
+
+        <table>
+
+         <tr>  This represents the first row of the table and it will hold all of the headers.
+            <th> show's name </th> *** th tab is for the header ***
+            <th> location </th>
+            <th> date </th>
+         </tr>
+
+         <tr> This next row represents the first entry in the table, each representing name:location:date
+
+            <td> A Raisin In The Sun </td> *** <td> is for the entry in the data cell.***
+            <td> Miami </td>
+            <td> 10/21/24 </td>
+
+        </tr>
+
+        <tr> This row is for the second entry
+
+            <td> Hamilton </td>
+            <td> Broward </td>
+            <td> 11/13/24 </td>
+        </tr>
+
+        <tr> This row is for the third entry 
+
+            <td> A Raisin in The Sun </td>
+            <td> Miami </td>
+            <td> 12/01/24 </td>
+        
+        <tr> This row is for the fourth entry 
+
+            <td> The Beautiful and the Damned </td>
+            <td> Broward </td>
+            <td> 12/15/24 </td>
+
+    </div>
+
+ -->
+
+<section class="local-shows" id = "shows">
+    <div class = 'event-header'>
+        <h2>Local Showings</h2>
+    </div>
+    <div class="shows-container">
+        
+        <h3>South Florida is home to cities with an eclectic beautiful variety of cultures, 
+            come and join us in one of our next showings.</h3>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Location </th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>Hamilton</td>
+            <td>Broward</td>
+            <td>11/24/24</td>
+        </tr>
+        <tr>
+            <td>A Raisin In the Sun</td>
+            <td>Miami</td>
+            <td>11/30/24</td>
+        </tr>
+        <tr>
+            <td>Hamilton</td>
+            <td>Miami</td>
+            <td>01/02/25</td>
+        </tr>
+        <tr>
+            <td>The Beautiful and The Damned</td>
+            <td>Broward</td>
+            <td>01/10/25</td>
+        </tr>
+        <tr>
+            <td>Hamilton</td>
+            <td>Fort Lauderdale</td>
+            <td>01/15/25</td>
+        </tr>
+        <tr>
+            <td>A Raisin In the Sun</td>
+            <td>Miami Beach</td>
+            <td>11/30/24</td>
+        </tr>
+    </table>
+    </div>
+
+</section>
+
+<!-- Grid Gallery -->
+
+
+<section class="gallery" id="gallery">
+    <div class = 'event-header'>
+        <h2>Gallery</h2>
+    </div>
+    <div class="wrap-container">
+        <div class="wrapper">
+            <div class="box">
+                <img src="images/img1.jpg" alt="" class="grid-image">
+                
+            </div>
+            <div class="box">
+                <img src="images/img2.jpg" alt="" class="grid-image">
+                
+            </div>
+            <div class="box">
+                <img src="images/img3.jpg" alt="" class="grid-image">
+                
+            </div>
+            <div class="box">
+                <img src="images/img4.jpg" alt="" class="grid-image">
+                
+            </div>
+            <div class="box">
+                <img src="images/img5.jpg" alt="" class="grid-image">
+                
+            </div>
+            <div class="box">
+                <img src="images/img6.jpg" alt="" class="grid-image">
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
+
+<footer>
+    <div class = 'event-header'>
+        <h2>Contact</h2>
+    </div>
+    
+<div class="bottom">
+    
+    
+    <div class="map">
+        <img src="images/chicago map screenshot.png" alt="Map showing the location of the theater." class="imgmap">
+    </div>
+
+    <div class="footinfo">
+        <div class="foothead"><h2>Info</h2></div>
+        <div class="address">
+            <p>2333 Brickell Ave, Miami Fl 33149</p>
+        </div>
+        <div class="email">
+            <p>email@email.org</p>
+        </div>
+        <div class="phone-number">
+            <p>Call-Us: 708-555-4488</p>
+        </div>
+    </div>
+
+    <div class="Locations">
+        <div class="foothead"><h2>Locations</h2></div>
+            <div id="Broward">
+                <p><a href="#">Broward</a></p>
+            </div>
+            <div id="Miami">
+                <p><a href="#">Miami</a></p>
+            </div>
+            <div id="F-la">
+                <p><a href="#">Fort-Lauderdale</a></p>
+            </div>
+            <div id="M-B">
+                <p><a href="#">Miami Beach</a></p>
+            </div>
+    </div>
+    <div class="social">
+        <div class="foothead"><h2>Social</h2></div>
+        <div class="media">
+            <a href="#"><p><i class = "fab fa-facebook"></i></p></a>
+        </div>
+        <div class="media">
+            <a href="#"><p><i class = "fab fa-x-twitter"></i></p></a>
+        </div>
+        <div class="media">
+            <a href="#"><p><i class = "fab fa-youtube"></i></p></a>
+        </div>
+        <div class="media">
+            <a href="#"><p><i class = "fab fa-instagram"></i></p></a>
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+
+</footer>
+
+
+</body>
+
+
+
+
+
+
